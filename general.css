@@ -10,15 +10,26 @@ body {
     font-family: "Rubik", sans-serif;
 }
 
-.primary-heading {
-    font-size: 5.2rem;
+.primary-heading, 
+.secondary-heading {
+
     line-height: 1.05;
     letter-spacing: -0.5;
     font-weight: 700;
-    margin-bottom: 2.4rem;
 }
 
-
+.primary-heading {
+    font-size: 5.2rem;
+    margin-bottom: 2.4rem;
+}
+.secondary-heading {
+    font-size: 4.4rem;
+    margin-bottom: 1.6rem;
+}
+.ternary-heading {
+    font-size: 3rem;
+    margin-bottom: 1.2rem;
+}
 .btn:link, .btn:visited {
     display: inline-block;
     text-decoration: none;
@@ -83,3 +94,8 @@ body {
 .mt-lg {
     margin-top: 9.6rem;
 }
+
+.pb-lg {
+    padding-bottom:9.6rem !important;
+}
+
