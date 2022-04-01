@@ -25,7 +25,7 @@ body {
     padding: 1.6rem 3.2rem;
     font-size: 1.8rem;
     font-weight: 600;
-    border-radius: 4px;
+    border-radius: 8px;
     transition: all 0.3s;
 }
 .btn-primary{
@@ -34,7 +34,19 @@ body {
     color: white;
     
 }
+.tryfree-btn:link, .tryfree-btn:visited {
+    background-color: #e67e22;
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem 1.6rem;
+    font-weight: 600;
+    border-radius: 4px;
+}
 
+.tryfree-btn:hover, .tryfree-btn:active {
+    background-color: #cf711f;
+    color: white;
+}
 .btn-primary:hover, .btn-primary:active {
 
     background-color: #cf711f;
