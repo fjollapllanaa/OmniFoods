@@ -205,6 +205,7 @@
 /* ----Feature-in End */
 
 /* ----Testimonials Start */
+
 .testimonials-grid {
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -240,4 +241,51 @@
     flex-direction: column;
     gap: 2.4rem;
 }
+
+/* ----Gallery start */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 3.2rem;
+    column-gap: 2.4rem;
+}
+.gallery img {
+    width: 100%;
+    transition: all 0.3s;
+    object-fit: contain;
+}
+.container-img {
+    overflow: hidden;
+}
+.container-img img:hover {
+    transform: scale(1.1);
+}
+/* ----Gallery end */
 /* ----Testimonials End */
+
+/* ----Meals Start */
+
+.meals-header,
+.meals-footer{
+    text-align: center;
+}
+
+.meals-header span {
+    display: block;
+    margin-bottom: 2.4rem;
+ }
+
+.meals-recipes {
+    display: inline-block;
+    font-size: 1.6rem;
+    color: #e67e22;
+    letter-spacing: 1.05px; 
+    text-decoration: none;
+    border-bottom: 1px solid #e67e22;
+    font-weight: 600;
+    padding: 0.4rem;
+}
+.meals-recipes:hover {
+    border: none;
+}
+/* ----Meals End */
