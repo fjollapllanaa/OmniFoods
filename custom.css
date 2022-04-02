@@ -70,6 +70,7 @@
 .hero-image img {
     max-width: 100%;
 }
+
 /* ----HERO End */
 
 /* Customers */
@@ -78,6 +79,7 @@
     align-items: center;
     gap: 1.6rem;
 }
+
 .costumer-img img {
     height: 3.2rem;
     width: 3.2rem;
@@ -107,12 +109,14 @@
 .steps-header {
     padding: 9.6rem 0 6.4rem 0;
 }
+
 .steps-header-description {
     font-size: 1.6rem;
     font-weight: 600;
     text-transform: uppercase;
     color: #cf711f;
 }
+
 .steps-content {
     display: grid;
     justify-items: center;
@@ -120,6 +124,7 @@
     row-gap: 6.4rem;
     column-gap: 4.8rem;
 }
+
 .steps-content img {
     width: 35%;
 }
@@ -129,17 +134,49 @@
     font-weight: 700;
     color: #ddd;
 }
+
 .step-description {
     font-size: 1.8rem;
     line-height: 1.5;
     letter-spacing: 1.05px;
 }
+
 .step-title {
     margin-bottom: 3.2rem;
 }
+
 .step-img {
+    position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.step-img::before,
+.step-img::after {
+    content: '';
+    display: block;
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    
+}
+
+.step-img::before {
+    width:60% ;
+    padding-bottom: 60%;
+    z-index: -2;
+    background-color: #fdf2e9;
+}
+
+.step-img::after {
+    width:50% ;
+    padding-bottom: 50%;
+    z-index: -1;
+    background-color: #fae5d3;
 }
 
 /* ----Steps End */
