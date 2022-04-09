@@ -1,0 +1,21 @@
+
+@media (max-width:1420) {
+    .hero-section,
+    .steps-header {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header {
+        background-color: red;
+    }
+}
+
+@media (max-width: 600px) {
+    .header {
+        border: 3px solid green;
+        background-color: greenyellow;
+    }
+}
