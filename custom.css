@@ -608,6 +608,7 @@
     background-image: url(../OmniFoods/07-Omnifood/content/img/eating.jpg);
     opacity: 0.6;
     background-size: cover;
+    background-position: center;
   }
   
   /* ----CTA End */
